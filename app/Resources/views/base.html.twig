@@ -11,7 +11,9 @@
     </head>
     <body>
         {% include 'partials/navbar.html.twig' %}
-        {% block body %}{% endblock %}
+        <br>
+        <div class="container">{% block body %}{% endblock %}</div>
+        <br>
         {% include 'partials/footer.html.twig' %}
         <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
         <script src="{{ asset('js/bootstrap.min.js') }}"></script>
